@@ -1,0 +1,7 @@
+from django.contrib import admin
+from . import models
+
+
+admin.site.register(models.Deporte)
+admin.site.register(models.Grupo)
+admin.site.register(models.Entrenador)
