@@ -3,6 +3,6 @@ from django.shortcuts import render
 from . import models
 
 def home(request):
-    ...
-
-# Create your views here.
+    query = models.Deporte.objects.all()
+    context = {"deportes": query}
+    return render(request, "Deportes/index.html", context)

@@ -1,0 +1,14 @@
+{% extends 'core/base.html' %}
+
+{% block title %}
+    <b>deportes</b>
+{% endblock title %}
+
+{% block content %}
+    {% for deporte in deportes %}
+
+        <p>{{ deporte }}</p>
+
+    {% endfor %}
+    
+{% endblock content %}

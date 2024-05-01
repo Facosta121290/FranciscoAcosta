@@ -37,6 +37,7 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'core', # debe estar siempre arriba del resto de las app creadas por ser la Ppal.
     'Deportes',
 ]
 
