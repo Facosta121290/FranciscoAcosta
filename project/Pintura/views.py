@@ -1,3 +1,8 @@
 from django.shortcuts import render
 
-# Create your views here.
+from . import models
+
+def home(request):
+    query = models.TipoPintura.objects.all()
+    context = {"pinturas": query}
+    return render(request, "Pinturas/index.html", context)

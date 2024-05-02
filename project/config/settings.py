@@ -39,6 +39,7 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'core', # debe estar siempre arriba del resto de las app creadas por ser la Ppal.
     'Deportes',
+    'Pintura',
 ]
 
 MIDDLEWARE = [
