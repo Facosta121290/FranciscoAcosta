@@ -15,6 +15,12 @@ El proyecto está relacionado con espacios recreativos.
     - Por último registrar Deporte, se escribe el tipo de deporte. Seleccionar a los involucrados.
 
 
+✅ Pintura
+    
+    - Se registra primeramente el tipo de lienzo
+    - Registrar tipos de herramientas y tipo de pinturas
+    - Por último registrar Participante.
+
 ### Modelos
 
 
